@@ -1,0 +1,141 @@
+#+TITLE: Computer Science For Jayden's students
+#+AUTHOR: Jayden B
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+* Preface:
+This book is to teach computer science fundamentals in a classroom environment for kids around the age of 11 - 14 with no prior experince.
+
+It is specifically made for my use-case, but I thought it could be potentialy benificial to others and so I'm releasing it on my github.
+
+The book is still a work in progress as I am activley teaching the curiculum expect things to change. As thing get finalized expect it to get cleaner with a lot less of my own personal anecdotes about my teaching strategy.
+
+** What is this book
+This book will also serve as the textbook your students can use!
+
+This curiculum is 16 weeks long, and assumes 120 minutes of instructional time a week.
+
+** Learning Philosophy:
+- Holistic understanding of concepts, teach them the why and then the how behind (almost) everything they do. Add complexity slowly and intentionally.
+- Show practical applications of programming quickly to keep them engaged. Imagine if all you did when learning programming was leetcodes. That would suck.
+- Use professional tools, like the cmd line and git. Build important foudational skills that they'll continue to use regardless of disipline. Not too sure how this'll turn out or how well they'll keep up, but we'll see and adjust.
+- Give them oppertunities to explore personal interests, let them make stuff that interest them.
+
+** Learning Goals:
+- How computers evolved throughout history.
+- What a computer is, the theoretical and physical parts of one.
+- The relationship between hardware and software.
+- How the internet works.
+- How computer logic is represented
+- How code turns into binary
+- Using the command line
+- Git and version control
+- Python fundamentals
+
+** Course Format:
+Each Week is seperated into different sections:
+*** Lectures/Readings: Videos or Articles for the students to read
+*** Labs: Work for students to do
+
+** W1
+*** Lecture:
+[[https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw][Crash Course Computer Science, from the beginning until Binary]]
+[[https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw][Code Studio Binary Game]]
+** resources to use
+*** https://ihts.pr4e.com/
+- good for learning about net history and interesting interviews
+*** https://www.py4e.com/
+- goated course
+*** https://inventwithpython.com/invent4thed/
+- games in python
+*** https://automatetheboringstuff.com/
+- automation applications with python
+*** https://www.theodinproject.com/
+- for when we want to get into frontends, python + flask can be used as our backends
+*** https://www.cc4e.com/lessons
+- civil war renactment programming
+*** https://inventwithpython.com/bigbookpython/
+*** https://youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&si=Pf4lK4qRJCTrdjxW
+- Crash Course CS
+
+** section ideas
+- cc cs until programming langs
+- py4e until lists
+-
+** Week Breakdown:
+*** w1:
+- course overview
+- cc cs 1-5
+*** w2:
+- finish up cc cs
+- chuck interviews
+- have kids prepare a presentation about someone important in computer science
+*** w3:
+- py4e week 2 content
+https://www.theodinproject.com/lessons/foundations-command-line-basics
+- set up the following:
+  - brew
+  - python3
+  - git
+  - github
+- connect git to github account
+- vscode
+- make first github repo
+*** w4:
+- py4e week 3
+*** w5:
+- py4e week 4
+*** w6:
+- py4e week 5
+*** wn:
+- py4e week n-1
+*** w11
+- "midterm exam"
+- programming projects
+*** w12
+- py4e week 15
+- give them 5 mid sized projects to make
+
+** project ideas/Labs sorted by complexity
+- madlibs
+- guess the number https://inventwithpython.com/invent4thed/chapter3.html
+- Hangman
+- bitmap messages https://inventwithpython.com/bigbookpython/project3.html
+- TTT https://inventwithpython.com/invent4thed/chapter10.html
+- Blackjack https://inventwithpython.com/bigbookpython/project4.html
+- bagels https://inventwithpython.com/bigbookpython/project1.html
+- game of life https://inventwithpython.com/bigbookpython/project13.html
+- text based adventure https://inventwithpython.com/invent4thed/chapter5.html
+
+ | project                         | complexity | link                                                     | prereq           |
+ | Madlibs                         | E          | eh                                                       | :string: :input: |
+ | Guess the Number                | E          | https://automatetheboringstuff.com/2e/chapter2/          | :flow: :input:   |
+ | RPS                             | E          | https://automatetheboringstuff.com/2e/chapter2/          | :flow: :input:   |
+ | Zig-Zag                         | E          | https://automatetheboringstuff.com/2e/chapter3/          | :functions:      |
+ | Bagels                          | D          | https://inventwithpython.com/bigbookpython/project1.html | :string: :loops: |
+ | Birthday Paradox                | E          |                                                          |                  |
+ | Bitmap message                  | E          |                                                          |                  |
+ | BlackJack                       | C          |                                                          |                  |
+ | Caesar Cipher                   | D          |                                                          |                  |
+ | Cesear Hacker                   | D          |                                                          |                  |
+ | Cho-Han                         | D          |                                                          |                  |
+ | Clickbait Headline Generator    | D          |                                                          |                  |
+ | Collatz Sequence                | E          |                                                          |                  |
+ | Conways Game of Life            | B          |                                                          |                  |
+ | Deep Cave                       | E          |                                                          |                  |
+ | Dice Math Game                  | C          |                                                          |                  |
+ | DnD dice roller                 | D          |                                                          |                  |
+ | pomodoro timer                  | D          |                                                          |                  |
+ | Matrix Screensaver              | D          |                                                          |                  |
+ | Duck Screensaver                | D          |                                                          |                  |
+ | Fibonacci calculator            | C          |                                                          |                  |
+ | Flooder                         | B          |                                                          |                  |
+ | Connect 4                       | C          |                                                          |                  |
+ | Text based adventure            | A          |                                                          |                  |
+ | Leetspeak translator            | D          |                                                          |                  |
+ | Piglatin translator             | D          |                                                          |                  |
+ | million dice stats              |            |                                                          |                  |
+ | F to C converter                |            |                                                          |                  |
+ | Print lyrics to 12 days of xmas |            |                                                          |                  |
+
+** simple lab tasks
+- https://cscircles.cemc.uwaterloo.ca/
+- https://introtopython.org
