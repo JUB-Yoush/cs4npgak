@@ -1,5 +1,6 @@
 #+TITLE: Computer Science For Jayden's students
 #+AUTHOR: Jayden B
+#+OPTIONS: num:nil
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
 
 * Preface:
@@ -9,7 +10,7 @@ It is specifically made for my use-case, but I thought it could be potentialy be
 
 The book is still a work in progress as I am activley teaching the curiculum expect things to change. As thing get finalized expect it to get cleaner with a lot less of my own personal anecdotes about my teaching strategy.
 
-** What is this book
+* What is this book
 This book will also serve as the textbook your students can use!
 
 This curiculum is 16 weeks long, and assumes 120 minutes of instructional time a week.
@@ -41,20 +42,19 @@ Each Week is seperated into different sections:
 - Work for students to do in class
 *** Homework
 - Work for students to do outside of class
-** Week Breakdown:
-*** W1
-**** Overview
+* Week 1
+** Overview
 - Give students a simple overview of the fundamentals and hisotry of computer science
-**** Lecture:
+** Lecture:
 [[https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw][Crash Course Computer Science, from the beginning until Binary]]
-**** Lab:
+** Lab:
 [[https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw][Code Studio Binary Game]]
-*** w2:
+* Week 2
 [[https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw][Crash Course Computer Science 6,7,8]]
-**** Labs:
+** Labs:
 - Have kids prepare a presentation about someone important in computer science. For this section, we're having kids focus on picking a Pioneer, we'll make presentations about innovators later.
-***** Potential People to make presentations on:
-****** Pioneers
+*** Potential People to make presentations on:
+**** Pioneers
 - Alan Turning
 - Charles Babbage
 - Ada Lovelace
@@ -62,39 +62,21 @@ Each Week is seperated into different sections:
 - Margaret Hamilton
 - Dennis Ritche
 - Tim Berners-Lee
-****** Innovators
+**** Innovators
 - John Carmack
 - Satoshi Nakamoto
 - Steve Wozniak
 - Linus Torvalds
 - Larry Page
 - Bill Gates
-***** Presentation format:
-- Who are they
-- What led them to computer science
-- What contributions did they make?
-- General overview of /how/ they made their contributions (if not too complicated)
-- Why were there contributions important?
-- Make sure to cite your sources
-*** w3:
-TBD
-*** w4:
-TBD
-*** w5:
-TBD
-*** w6:
-TBD
-*** wn:
-TBD
-*** w11:
-TBD
-*** w12:
-TBD
-*** w13:
-TBD
-*** w14:
-TBD
-*** w15:
-TBD
-*** w16:
-TBD
+*** Things to include in your presentation:
+- [ ] Name, Birth date and location
+- [ ] Early life and education
+- [ ] When and why did they start studying math/computers?
+- [ ] Where did they work?
+- [ ] What was computing like before their innovations?
+- [ ] Who were some of the people who worked with them?
+- [ ] What were their biggest innovations/inventions Why were they important?
+- [ ] Any awards or recognition they received, anything named after them?
+- [ ] How is their work still relevant to today?
+- [ ] Make sure to cite your sources on a final slide (Chat GPT is not a source)
