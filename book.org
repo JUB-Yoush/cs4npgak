@@ -80,3 +80,13 @@ Each Week is seperated into different sections:
 - [ ] Any awards or recognition they received, anything named after them?
 - [ ] How is their work still relevant to today?
 - [ ] Make sure to cite your sources on a final slide (Chat GPT is not a source)
+
+* Week 3
+** Overview:
+- This week we're going to watch some of the python for everyone lectures, and set up a development environment on mac
+** Lecture
+- https://www.py4e.com/lessons/intro
+- https://www.theodinproject.com/lessons/foundations-computer-basics
+
+** Lab
+- https://www.theodinproject.com/lessons/foundations-introduction-to-git
