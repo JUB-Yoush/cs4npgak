@@ -83,10 +83,12 @@ Each Week is seperated into different sections:
 
 * Week 3
 ** Overview:
-- This week we're going to watch some of the python for everyone lectures, and set up a development environment on mac
+- This week we're going to watch some of the python for everyone lectures, and start setting up a development environment on MacOS.
 ** Lecture
-- https://www.py4e.com/lessons/intro
-- https://www.theodinproject.com/lessons/foundations-computer-basics
-
+- [[https://www.py4e.com/lessons/intro][Py4e, Why Program]]
+- [[https://www.theodinproject.com/lessons/foundations-computer-basics][Odin Project Computer Basics]]
 ** Lab
-- https://www.theodinproject.com/lessons/foundations-introduction-to-git
+- [[https://www.theodinproject.com/lessons/foundations-text-editors][Set up VSCode]]
+- [[https://www.theodinproject.com/lessons/foundations-command-line-basics][Command Line Fundamentals]]
+** Homework
+- Work through the assignment in the command line fundamentals page. [[https://www.theodinproject.com/lessons/foundations-command-line-basics#assignment][Link]]
