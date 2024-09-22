@@ -84,11 +84,56 @@ Each Week is seperated into different sections:
 * Week 3
 ** Overview:
 - This week we're going to watch some of the python for everyone lectures, and start setting up a development environment on MacOS.
+*** What We'll be Installing:
+- Terminal
+- Text Editor
+- Brew package manager
 ** Lecture
-- [[https://www.py4e.com/lessons/intro][Py4e, Why Program]]
-- [[https://www.theodinproject.com/lessons/foundations-computer-basics][Odin Project Computer Basics]]
+*** Python For Everyone Lectures
+- [[https://www.py4e.com/lessons/intro][Py4e, Why Program 1-4]]
+*** Computer Fundamentals Resources from the GCF:
+- [[https://edu.gcfglobal.org/en/computerbasics/what-is-a-computer/1/][What is a Computer?]]
+- [[https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/][What is an Operating System?]]
+- [[https://edu.gcfglobal.org/en/computerbasics/understanding-applications/1/][What is an applicaiton]]
+- [[https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/][Open source vs Closed source software]]
+- [[https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/][Taking a screenshot]]
 ** Lab
+*** VSCode
 - [[https://www.theodinproject.com/lessons/foundations-text-editors][Set up VSCode]]
+*** Command line
 - [[https://www.theodinproject.com/lessons/foundations-command-line-basics][Command Line Fundamentals]]
+*** Package Management
+- [[https://www.theodinproject.com/lessons/foundations-computer-basics#assignment][Install Homebrew]]
+- If you're using an M1 mac you need to manually add brew to your PATH/ .profile. see [[https://medium.com/subjective-developer/set-up-brew-on-m1-mac-e4ea805e5634][this article.]]
 ** Homework
-- Work through the assignment in the command line fundamentals page. [[https://www.theodinproject.com/lessons/foundations-command-line-basics#assignment][Link]]
+- No homework for this week.
+
+* Week 4
+** Overview
+- With our new package manager, we will be installing Git, Setting up Github, and finally installing Python.
+** Lecture:
+*** Git
+- [[https://youtu.be/2ReR1YJrNOM?si=7Fu2YxuezWKycZsr][What is Git? Explained in 2 Minutes]]
+*** What does it mean to install a programming language
+Modified from Pieces of [[https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/][This FCC article]]
+
+Imagine you have a hummus recipe that you want to make, but it's written in ancient Greek. There are two ways you, a non-ancient-Greek speaker, could follow its directions.
+
+The first is if someone had already translated it into English for you. You (and anyone else who can speak English) could read the English version of the recipe and make hummus. Think of this translated recipe as the compiled version.
+
+The second way is if you have a friend who knows ancient Greek. When you're ready to make hummus, your friend sits next to you and translates the recipe into English as you go, line by line. In this case, your friend is the interpreter for the interpreted version of the recipe.
+
+Interpreted Languages need an interpreter. When we install Python, we're installing the Python interpreter onto our computers, that we can use to interpret Python files into a language our computer understands (Computers can only read 0s and 1s).
+
+Compiled languages need a compiler. When we install a compiled language like C, we take a file of C code and turn it into 0s and 1s. Instead of doing this as the program is running, it does this all at once, and returns a compiled binary file (it's called a binary file because it's just 0s and 1s)
+
+Compiled languages are generally faster, and you don't need to have a languages compiler installed on your computer to run a binary file made from that languages code.
+
+Interpreted Languages are generally easier to write, as the interpreter is more flexible with things like datatypes and the input and output of functions.
+** Lab:
+*** Odin Project Lessons
+- [[https://www.theodinproject.com/lessons/foundations-computer-basics#assignment][Setting up Git]]
+*** Installing Python
+- [[https://www.python.org/][Python Download]]
+- [[https://www.geeksforgeeks.org/how-to-install-pip-in-macos/][Install pip package manager]]
+- Write a Hello World test application
