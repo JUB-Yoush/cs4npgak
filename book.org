@@ -130,10 +130,25 @@ Compiled languages need a compiler. When we install a compiled language like C, 
 Compiled languages are generally faster, and you don't need to have a languages compiler installed on your computer to run a binary file made from that languages code.
 
 Interpreted Languages are generally easier to write, as the interpreter is more flexible with things like datatypes and the input and output of functions.
+
+These differences aren't important for now.
 ** Lab:
 *** Odin Project Lessons
-- [[https://www.theodinproject.com/lessons/foundations-computer-basics#assignment][Setting up Git]]
+- [[https://www.theodinproject.com/lessons/foundations-setting-up-git][Setting up Git and Github]]
 *** Installing Python
 - [[https://www.python.org/][Python Download]]
 - [[https://www.geeksforgeeks.org/how-to-install-pip-in-macos/][Install pip package manager]]
-- Write a Hello World test application
+**** Writing and running your First a Hello World test application
+- Make a python file test.py
+- Enter the following line:
+#+begin_src python
+print("Hello World")
+#+end_src
+- Save the file
+- Run the file through the terminal
+#+begin_src
+$ python3 test.py
+#+end_src
+
+** Homework:
+Start working through [[https://introtopython.org/][introtopython]] lessons, up to variables, strings, and numbers
