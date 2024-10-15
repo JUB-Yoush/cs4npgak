@@ -231,3 +231,16 @@ else:
 # This one is difficut! Think about how the fibonacci sequence works
 # you'll need 3 variables for the solution.
 #+end_src
+* first quiz
+- Prepare for our first Quiz!
+- It won't feature any programming. It will be on google forms, I will tell you exactly what to study.
+*** Things to ask them:
+- What is a computer?
+- What are the 4 things something needs to be able to do to be considered a computer?
+- Parts of a computer
+https://youtu.be/y2kg3MOk1sY?si=DdnILOlYhPOFUvHw&t=492
+- Hardware vs Software
+- Binary
+- What is a computer file
+- What is Python
+- What is a binary vs plaintext file

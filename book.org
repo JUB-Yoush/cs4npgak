@@ -18,8 +18,8 @@ This curiculum is 16 weeks long, and assumes 120 minutes of instructional time a
 ** Learning Philosophy:
 - Holistic understanding of concepts, teach them the why and then the how behind (almost) everything they do. Add complexity slowly and intentionally.
 - Show practical applications of programming quickly to keep them engaged. Imagine if all you did when learning programming was leetcodes. That would suck.
-- Use professional tools, like the cmd line and git. Build important foudational skills that they'll continue to use regardless of disipline. Not too sure how this'll turn out or how well they'll keep up, but we'll see and adjust.
-- Give them oppertunities to explore personal interests, let them make stuff that interest them.
+- Use professional tools, like the cmd line and git. Build important foundational skills that they'll continue to use regardless of discipline. Not too sure how this'll turn out or how well they'll keep up, but we'll see and adjust.
+- Give them opportunities to explore personal interests, let them make stuff that interest them.
 
 ** Learning Goals:
 - How computers evolved throughout history.
@@ -33,7 +33,7 @@ This curiculum is 16 weeks long, and assumes 120 minutes of instructional time a
 - Python fundamentals
 
 ** Course Format:
-Each Week is seperated into different sections:
+Each Week is separated into different sections:
 *** Overview:
 - What the students can expect to learn this week
 *** Lectures/Readings:
@@ -44,9 +44,9 @@ Each Week is seperated into different sections:
 - Work for students to do outside of class
 * Week 1
 ** Overview
-- Give students a simple overview of the fundamentals and hisotry of computer science
+- Give students a simple overview of the fundamentals and history of computer science
 ** Lecture:
-[[https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw][Crash Course Computer Science, from the beginning until Binary]]
+[[https://youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&si=8Bc4YSvlipJt6y7e][Crash Course Computer Science, from the beginning until Binary]]
 ** Lab:
 [[https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw][Code Studio Binary Game]]
 * Week 2
@@ -187,7 +187,6 @@ print(f"{a} - {b} ={}")
 
 *** List Operations: Create a list of five favourite foods and print each food on a new line. Then, add a new food to the list and print the updated list.
 #+begin_src python
-# make two variables, a and b
 foods = [] # put the foods in here as strings
 for # finish the for loop
     print(food)
@@ -220,3 +219,86 @@ for # loop through them, print the value and add to the sum
 # This one is difficut! Think about how the fibonacci sequence works
 # you'll need 3 variables for the solution.
 #+end_src
+
+* Week 6
+** Overview:
+*** We were going too fast!
+This week is going to peel back a bit and focus more on the specifics of what we're doing. We'll answer questions like:
+- What is Python?
+- What is programming?
+- what does installing python add to my computer?
+- what are text files?
+- how does python turn them into computer code?
+
+** Lecture
+*** Videos:
+[[https://youtu.be/RU1u-js7db8?si=vrFFEVXNHhKXYLfX][The First Programming Languages: Crash Course Computer Science #11]]
+[[https://youtu.be/KN8YgJnShPM?si=w-kP7sfdwT_JGgdQ][Files & File Systems: Crash Course Computer Science #20]]
+*** What is a programming language?
+- A programming language is a set of instructions written by a programmer to deliver instructions to the computer to perform and accomplish a task.
+- Everything your computer does is based on instructions written in a programming language by a human programmer.
+- You can think of a program like a recipe and your computer like a chef who's following it.
+*** What is Python?
+- Python is a programming language. There are lots of different programming languages, that all produce "recipes" your computer can follow.
+- Some languages are better at some kinds of programs than others, but you're generally able to write any program with any language.
+- Python is commonly used for Websites and Data Science.
+- Python is simple to read and write, that is why I chose it to teach you.
+- You can compare programming languages to spoken human languages. As long as the other person knows the language you're speaking to them in, you can communicate instructions to them. Computers are the same!
+*** How do I write a python program?
+A workflow of a programmer might be something like:
+**** 1. Open up a terminal window
+- You can do this by typing in "terminal" into the search bar in the Launchpad app (on MacOS).
+**** 2. Make a python file
+- This can be done by running:
+ #+begin_src
+touch your_file_name.py
+ #+end_src
+**** 3. Open your new python file in a text editor
+- The text editor we're using is Visual Studio Code.
+- Open up VScode, and open the folder that your python file is stored in
+- Once the file is open, you'll notice there's nothing there. Let's change that.
+- Go ahead and add the following lines to the open python file:
+#+begin_src python
+print("hello world")
+#+end_src
+**** 4. Run your code
+- Save your changes (Ctrl + S), and run the file by opening up a terminal in the folder of the python file and typing
+ #+begin_src
+python3 your_file_name.py
+ #+end_src
+- If everything went well, you should see the following in the terminal:
+ #+begin_src
+hello world
+ #+end_src
+ Good Job!
+
+*** Breaking down exactly what happened.
+**** What is the Terminal?
+- The terminal is a way to give commands to your computer.
+- The terminal is an older method of interacting with a computer than the Graphical Mouse-based Interfaces we're used to.
+- The terminal is still helpful and used by programmers, as it allows us to have a simple, consistent, and reliable method to use computers. Some computers even run "headless", meaning the only way to interact with them is through the terminal (no graphics!).
+- You can open the terminal as a separate application, or as a part of VScode
+- From our previous example within the terminal, we gave the computer two commands:
+#+begin_src
+touch file_name
+#+end_src}
+The touch command makes a file that is named as the name you write beside.
+
+#+begin_src
+python3 my_python_file.py
+#+end_src}
+The python3 command runs python version 3 on the python file written beside.
+**** What is a python file?
+- A python file is a text file that stores python code.
+- You can tell a file is a python code file based on the file extension.
+**** What is a text editor?
+- Text editors allow you to open up a file and change the text within it.
+- Text editors only work with plaintext files. These are files where the only data is ascii characters.
+- Binary files (where the content is binary numbers) usually need specialized editors to make sense of their data.
+**** How did python talk to the computer?
+- Computers can only understand 1s and 0s.
+- The python application we ran on the terminal acts as an interpreter, something that can take the python we wrote and turn it into.
+** Lab:
+* Week 7
+** Overview:
+- Python basics the syntax of a programming language
