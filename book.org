@@ -158,68 +158,6 @@ Start working through [[https://introtopython.org/][introtopython]] lessons, up 
 ** Lecture
 ** Lab
 ** Quiz!
-*** Hello World Program: Write a program that prints "Hello, World!" to the console.
-#+begin_src python
-print() # print a string
-#+end_src
-
-*** String Manipulation: Create a program that takes a user-input string and outputs the string in uppercase, lowercase, and the number of characters in it.
-#+begin_src python
-# Python program showing
-# a use of input()
-
-val = input("Enter your value: ")
-print(val)
-print(val) # change this line to print uppercase
-print(val) # change this line to print lowercase
-print(val) # change this line to print the number of characters in the string
-#+end_src
-
-*** Basic Calculator: Build a simple calculator that takes two numbers as input and performs addition, subtraction, multiplication, and division.
-#+begin_src python
-# make variable a
-# make variable b
-print(f"{a} + {b} = {}")
-print(f"{a} - {b} ={}")
-#BONUS: how could you get a and b from the user?
-# Using the input collection method from last question won't work, what's the difference between this and that? (You can ask me when you're stumped)
-#+end_src
-
-*** List Operations: Create a list of five favourite foods and print each food on a new line. Then, add a new food to the list and print the updated list.
-#+begin_src python
-foods = [] # put the foods in here as strings
-for # finish the for loop
-    print(food)
-newFood = # get the user to input a new food
-# add that food to the food list
-
-#+end_src
-
-*** Even or Odd: Write a program that asks the user for a number and determines if it is even or odd.
-#+begin_src python
-# make a number variable
-if #if number is even
-    print("number is even")
-else:
-    print("number is odd")
-#+end_src
-
-*** Sum of List: Write a program that calculates and prints the sum of all numbers in a predefined list of integers.
-#+begin_src python
-# make a number variable
-numbers = [] # make a list of numbers
-sum = 0
-for # loop through them, print the value and add to the sum
-# at the end of the loop, print the sum
-#
-#+end_src
-
-*** Fibonacci Sequence: Use a loop to print the first 10 numbers in the Fibonacci sequence.
-#+begin_src python
-# This one is difficut! Think about how the fibonacci sequence works
-# you'll need 3 variables for the solution.
-#+end_src
-
 * Week 6
 ** Overview:
 *** We were going too fast!
@@ -302,3 +240,74 @@ The python3 command runs python version 3 on the python file written beside.
 * Week 7
 ** Overview:
 - Python basics the syntax of a programming language
+
+** Lecture:
+- CS Circles: 2 and 3
+** Lab
+- CS Circles 2X
+* Week 8
+** Overview
+** Lecture
+- CS Circles lesson
+** Lab
+*** Hello World Program: Write a program that prints "Hello, World!" to the console.
+#+begin_src python
+print() # print a string
+#+end_src
+
+*** String Manipulation: Create a program that takes a user-input string and outputs the string in uppercase, lowercase, and the number of characters in it.
+#+begin_src python
+# Python program showing
+# a use of input()
+
+val = input("Enter your value: ")
+print(val)
+print(val) # change this line to print uppercase
+print(val) # change this line to print lowercase
+print(val) # change this line to print the number of characters in the string
+#+end_src
+
+*** Basic Calculator: Build a simple calculator that takes two numbers as input and performs addition, subtraction, multiplication, and division.
+#+begin_src python
+# make variable a
+# make variable b
+print(f"{a} + {b} = {}")
+print(f"{a} - {b} ={}")
+#BONUS: how could you get a and b from the user?
+# Using the input collection method from last question won't work, what's the difference between this and that? (You can ask me when you're stumped)
+#+end_src
+
+*** List Operations: Create a list of five favourite foods and print each food on a new line. Then, add a new food to the list and print the updated list.
+#+begin_src python
+foods = [] # put the foods in here as strings
+for # finish the for loop
+    print(food)
+newFood = # get the user to input a new food
+# add that food to the food list
+
+#+end_src
+
+*** Even or Odd: Write a program that asks the user for a number and determines if it is even or odd.
+#+begin_src python
+# make a number variable
+if #if number is even
+    print("number is even")
+else:
+    print("number is odd")
+#+end_src
+
+*** Sum of List: Write a program that calculates and prints the sum of all numbers in a predefined list of integers.
+#+begin_src python
+# make a number variable
+numbers = [] # make a list of numbers
+sum = 0
+for # loop through them, print the value and add to the sum
+# at the end of the loop, print the sum
+#
+#+end_src
+
+*** Fibonacci Sequence: Use a loop to print the first 10 numbers in the Fibonacci sequence.
+#+begin_src python
+# This one is difficut! Think about how the fibonacci sequence works
+# you'll need 3 variables for the solution.
+#+end_src

@@ -236,11 +236,17 @@ else:
 - It won't feature any programming. It will be on google forms, I will tell you exactly what to study.
 *** Things to ask them:
 - What is a computer?
+  - which of the following is a computer, and which one isn't?
 - What are the 4 things something needs to be able to do to be considered a computer?
-- Parts of a computer
+- Some of the major parts of a modern computer
 https://youtu.be/y2kg3MOk1sY?si=DdnILOlYhPOFUvHw&t=492
-- Hardware vs Software
-- Binary
+- Hardware vs Software, conceptually
+- levels of abstraction
+  - sort the following actions based on their level of abstraction
+- Binary vs Decimal Digits
+- The Terminal, Conceptually
+- Compilers/interpreters
+  - what are the steps in writing and executing a python program?
 - What is a computer file
 - What is Python
 - What is a binary vs plaintext file
